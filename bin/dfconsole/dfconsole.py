@@ -10,7 +10,7 @@ from Modules import *       #imports all .py files in Modules subfolder
 
 module_list = []
 ###########################commands available
-commands=["use","set","exit","show","?","unset"]
+commands=["use","set","exit","show","?","unset","run"]
 
 #configure logging
 error_log = './error.log'
@@ -323,4 +323,3 @@ def main(argv):
             print("\nType 'exit' to exit\n")
 if __name__ == "__main__":
     main(sys.argv[1:])
-
